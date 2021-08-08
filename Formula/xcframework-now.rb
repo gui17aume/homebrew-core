@@ -1,8 +1,8 @@
 class XcframeworkNow < Formula
   desc "Utility for transforming a given library or framework into an XCFramework, generating the arm64 simulator slices if missing."
   homepage "https://github.com/gui17aume/xcframework-now"
-  url "https://github.com/gui17aume/xcframework-now/archive/refs/tags/0.1.0.tar.gz"
-  sha256 "db3bcd0c520a63ecc5e0d7a57e847bfd9e96691cdb7a32150b6a1a87096d2d64"
+  url "https://github.com/gui17aume/xcframework-now/archive/refs/tags/0.2.0.tar.gz"
+  sha256 "d55747a30c8221b2f4c4be535b3e6037ad403ccaa45176c5f144bdbd132e24b1"
   license "MIT"
 
   depends_on xcode: ["11.0", :build]
